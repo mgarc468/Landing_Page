@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url(img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: red;
+}
+
+header .logo{
+    color:#fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: red;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+header .logo:hover{
+    color:red;
+    background: #fff;
+    transition: 1s;
+}
+
+header .navbar{
+    position: relative;
+    display:flex;  
+}
+
+header .navbar li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover{
+    border-bottom: 5px solid #fff;
+    padding: 2px
+}
+
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.contenido .tituloBox{
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+
+.contenido .tituloBox h2{
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contenido .tituloBox h2 span{
+    background: red;
+    color: white;
+    padding: 0 10px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.contenido .tituloBox p{
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: white;
+    font-family: 'Lora', serif;
+    font-weight: 300px;
+    margin-bottom: 20px;
+}
+
+.contenido .tituloBox a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: red;
+    background: #fff;
+    padding: 10px 20px;
+    margin: left 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.contenido .tituloBox a:hover{
+    color: #fff;
+    background: red;
+    transition: 0.5s;
+}
+
+.contenido .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -50px;
+    z-index: -5;
+}
+
+.contenido .imgBox img{
+    height: 80vh;
+}
+
+.contenido .imgBox img:hover{
+    height: 80vh;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p{
+    color: #fff;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.redesSociales{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+
+.redesSociales li{
+    padding: 10px;
+}
+
+.redesSociales li a{
+    color: white;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+.redesSociales li:hover a{
+    color:red;
+
+}
+
+.textoSobreMI{
+    color:white;
+    position: relative;
+    padding-right: 50px;
+    margin-top: -50px;
+   
+}
+
+/*Style_Contacto*/
+.body_contacto {
+    font-family: Arial, sans-serif;
+}
+
+.container_contacto {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.h2_contacto {
+    text-align: center;
+    color: #fff;
+}
+.form_contacto{
+    color:white;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label_contacto {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input_contacto,
+.input_contacto,
+.textarea_contacto{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.button_contacto{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button_contacto:hover {
+    background-color: #0056b3;
+}
